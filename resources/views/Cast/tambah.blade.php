@@ -18,7 +18,7 @@
     <input type="number" name="age" class="form-control" id="exampleFormControlInput1" >
   </div>
   <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Bio</label>
+    <label for="exampleFormControlTextarea1" class="form-label" required>Bio</label>
     <textarea class="form-control" name="bio" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
   <div class="col-auto">

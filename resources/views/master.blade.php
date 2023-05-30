@@ -102,6 +102,8 @@
 <script src="{{ ('/Admin/dist/js/adminlte.min.js') }}"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{{ ('/Admin/dist/js/demo.js') }}"></script>
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/c0c6839ed1.js" crossorigin="anonymous"></script>
 @stack('scripts')
 </body>
 </html>

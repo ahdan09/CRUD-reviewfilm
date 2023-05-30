@@ -8,6 +8,10 @@
         Cast Table
 @endsection
 
+@push('scripts')
+<script src="https://kit.fontawesome.com/c0c6839ed1.js" crossorigin="anonymous"></script>
+@endpush
+
 @section('content')
 
 <a href="cast/create" class="btn btn-info btn-sm">tambah</a>
@@ -20,7 +24,7 @@
         <th scope="col">name</th>
         <th scope="col">age</th>
         <th scope="col">bio</th>
-        <th scope="col">Detail</th>
+        <th scope="col">Action</th>
       </tr>
     </thead>
     <tbody>
@@ -32,12 +36,12 @@
             <td>{{ $item->bio }}</td>
             <td>
                 <form action="/cast/{{ $item->id }}" method="POST">
-                <a href="/cast/ {{ $item->id }}" class="btn btn-info btn-sm">Detail</a>
-                <a href="/cast/ {{ $item->id }}/edit" class="btn btn-warning btn-sm">Edit</a>
+                <a href="/cast/ {{ $item->id }}" class="btn btn-info btn-sm"><i class="fa-solid fa-eye"></i></a>
+                <a href="/cast/ {{ $item->id }}/edit" class="btn btn-warning btn-sm"><i class="fa-solid fa-pen"></i></a>
                 @csrf
                 @method('delete')
-                <input type="submit" value="delete" class="btn btn-danger btn-sm">
-                </form>
+                <button type="submit" value="delete" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus film ini?')"><i class="fa-solid fa-trash"></i></button>                
+              </form>
             </td>
         </tr>
         @empty

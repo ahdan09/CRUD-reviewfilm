@@ -26,20 +26,61 @@
       <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
         <!-- Add icons to the links using the .nav-icon class
              with font-awesome or any other icon font library -->
-        <li class="nav-item">
-          <a href="/" class="nav-link">
-            <i class="nav-icon fas fa-tachometer-alt"></i>
-            <p>
-              Dashboard
-            </p>
-          </a>
-        </li>
-
+             <li class="nav-item">
+              <a href="/profile" class="nav-link">
+                <i class="nav-icon fas fa-tachometer-alt"></i>
+                <p>
+                  Profile
+                </p>
+              </a>
+            </li>
+             <li class="nav-item">
+              <a href="/users" class="nav-link">
+                <i class="nav-icon fas fa-tachometer-alt"></i>
+                <p>
+                  User
+                </p>
+              </a>
+            </li>
         <li class="nav-item">
           <a href="/cast" class="nav-link">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>
               Cast
+            </p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="/genres" class="nav-link">
+            <i class="nav-icon fas fa-tachometer-alt"></i>
+            <p>
+              Genre
+            </p>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="/films" class="nav-link">
+            <i class="nav-icon fas fa-tachometer-alt"></i>
+            <p>
+              Film
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/perans" class="nav-link">
+            <i class="nav-icon fas fa-tachometer-alt"></i>
+            <p>
+              Peran
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/reviews" class="nav-link">
+            <i class="nav-icon fas fa-tachometer-alt"></i>
+            <p>
+              Review
             </p>
           </a>
         </li>
